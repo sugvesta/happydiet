@@ -1,0 +1,22 @@
+{
+  "name": "diet",
+  "version": "1.0.0",
+  "description": "Diet coach MVP with React + Express + Ollama",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "start": "npm --prefix server run start"
+  },
+  "keywords": [
+    "diet",
+    "coach",
+    "ollama",
+    "pwa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
